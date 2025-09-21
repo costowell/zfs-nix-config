@@ -101,6 +101,7 @@
     ripgrep
     curl
     dig
+    bottom
   ];
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
