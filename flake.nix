@@ -10,9 +10,9 @@
     system = "x86_64-linux";
   in {
     nixosConfigurations = {
-      reef = lib.nixosSystem {
+      reef = nixpkgs.lib.nixosSystem {
         modules = [./hosts/reef];
-      }
-    }
-  }
+      };
+    };
+  };
 }
